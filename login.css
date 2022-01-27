@@ -1,0 +1,87 @@
+*{
+    font-style: italic;
+}
+body{
+    margin:0px
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#primary-links a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: grey;
+}
+#primary-links a:nth-child(1){
+   color: black;
+}
+#secondary-links a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#secondary-links a:nth-child(2){
+    background-color: black;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+#section_1{
+    width: 50%;
+    height: 85vh;
+    background-color: rgba(236, 236, 241, 0.753);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    
+   
+}
+#section_2{
+    width: 50%;
+    height: 85vh;
+    background-color: rgb(255, 0, 255);
+    background-image: url("imagies/gojo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   transition: 3s;
+}
+#section_2:hover{
+ background-image: url("imagies/nezuko.jpg");
+ transition: 5s;
+ 
+}
+
+button{
+    color: white;
+    background-image: linear-gradient( rgb(147, 70, 209) ,blue);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0px 50px ;
+}
+h1{
+    color: black;
+    padding: 0px 20px;
+}
+h3{
+    color: grey;
+    padding: 20px;
+}
+p{
+    color: black;
+    padding: 0px 20px 5px;
+}
